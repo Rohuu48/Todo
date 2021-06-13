@@ -1,0 +1,50 @@
+.tasksToDoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  min-width: 200px;
+}
+
+.todoItems > span {
+  margin-right: 5px;
+}
+
+.todoItems {
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+li {
+  word-break: break-all;
+}
+
+ul {
+  margin: 10px;
+  padding: 0;
+}
+
+.emptyButton {
+  display: flex;
+  margin-left: auto;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  font-size: 0.8rem;
+  background-color: tomato;
+}
+
+.itemsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: 'center';
+}
